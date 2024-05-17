@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-color: antiquewhite;
+}
+ /* navigation bar design  */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: antiquewhite;
+  text-align: center;
+
+}
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+  margin:0px;
+  text-align: center;
+  color: #553311;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: burlywood;
+  color: #553311;
+}
+
+
+#header {
+  text-align: center;
+  color: beige;
+}
+
+/*welcome div and paragraph*/
+#div_welcome {
+  background-color: #745332;
+  padding: 20px;
+  margin: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+#welcome {
+  text-align: center;
+  font-weight: bold;
+  color: beige;
+}
