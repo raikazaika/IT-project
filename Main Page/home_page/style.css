@@ -41,6 +41,11 @@ nav ul li a {
 nav ul li a:hover {
     color: #553311;
 }
+#home_icon {
+    display: inline;
+    height: 20px;
+}
+  
 
 main {
     padding: 20px;
