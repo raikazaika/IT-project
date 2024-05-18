@@ -21,26 +21,31 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    text-align: center;
     background-color: antiquewhite;
-}
-
-nav ul li {
+    text-align: center;
+  
+  }
+  
+  nav ul li {
     display: inline;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 20px;
+    margin:0px;
+    text-align: center;
     color: #553311;
-}
-
-nav ul li a {
-    color: #333;
+    font-weight: bold;
+  }
+  a {
     text-decoration: none;
-    
-}
-
-nav ul li a:hover {
+  }
+  nav ul li a {
+    color: #333;
+  }
+  
+  nav ul li:hover {
+    background-color: burlywood;
     color: #553311;
-}
+    cursor: pointer;
+  }
 #home_icon {
     display: inline;
     height: 20px;
