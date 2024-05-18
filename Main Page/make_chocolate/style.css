@@ -32,20 +32,28 @@ nav ul li a {
 nav ul li:hover {
   background-color: burlywood;
   color: #553311;
+  cursor: pointer;
 }
 
+#home_icon {
+  display: inline;
+  height: 20px;
+}
 
-#header {
+#header1 {
   text-align: center;
-  color: beige;
+  color: #553311;
+  font-size: 40px;
 }
 
 /*welcome div and paragraph*/
+
 #div_welcome {
   background-color: #745332;
   padding: 20px;
-  margin: 100px;
+  margin: 200px;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
 
@@ -53,4 +61,5 @@ nav ul li:hover {
   text-align: center;
   font-weight: bold;
   color: beige;
+  font-size: 20px;
 }
