@@ -7,9 +7,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
-
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+} 
 nav ul {
     list-style-type: none;
     margin: 0;

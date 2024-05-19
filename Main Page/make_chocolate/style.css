@@ -173,12 +173,12 @@ nav ul li:hover {
 /* coocoa spread */
 #cocoa_spread_recipes{
   margin: 10%;
-  border-color: #745332;
+  border-color: #6e4b28;
   border-width: 4px;
   border-style: solid;
   border-radius: 10px;
   padding: 4%;
-  background-color: #745332;
+  background-color: #6e4b28;
 }
 #cocoa_spread_recipes h2{
     color: antiquewhite;
@@ -190,4 +190,11 @@ nav ul li:hover {
 #cocoa_spread_recipes ol li{
     color: antiquewhite;
     font-size: 20px;
+}
+
+footer {
+  background-color: #e6c9a8;
+  color: #333;
+  text-align: center;
+  padding: 10px;
 }
