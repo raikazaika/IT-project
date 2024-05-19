@@ -5,71 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Chocolate Shop</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href = "../home_page/index.html"> <img src="../homepage-icon.svg" id = "home_icon"> Home</a></li>
+            <li><a href="../home_page/index.html"><img src="../homepage-icon.svg" id="home_icon"> Home</a></li>
             <li><a href="../history/history.html">History</a></li>
-            <li><a href="../chocolate_today/chocolate_today.html">Chocolate today</a></li>
+            <li><a href="../chocolate_today/chocolate_today.html">Chocolate Today</a></li>
             <li><a href="../online_shop/online_shop.html">Online Shop</a></li>
-            <li><a href = "../make_chocolate/make_chocolate.html">Make chocolate at home</a></li>
-            <li><a href = "../Pros_and_cons/pros_and_cons.html">Pros and cons</a></li>
+            <li><a href="../make_chocolate/make_chocolate.html">Make Chocolate at Home</a></li>
+            <li><a href="../pros_and_cons/pros_and_cons.html">Pros and Cons</a></li>
         </ul>
-      </nav>
+    </nav>
     <main>
         <section id="home" class="history">
             <div id="intro-text">
                 <h1>Discover the Finest Chocolates</h1>
                 <p>Indulge in our wide variety of premium chocolates, crafted with love and care.</p>
+                <button onclick="scrollToSection('milka')">Go to Milka</button>
+                <button onclick="scrollToSection('lindt')">Go to Lindt</button>
             </div>
         </section>
-
-
         <section id="products" class="products">
             <h2>Our Products</h2>
-            <h4>Milka</h4>
+            <h4 id="milka">Milka</h4>
             <div class="product-list">
                 <div class="product-item">
                     <img src="./Images/m_whi.jpeg" alt="Chocolate 1">
                     <h3>White Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product-item">
                     <img src="./Images/m_nois.jpg" alt="Chocolate 2">
                     <h3>Noisette Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product-item">
                     <img src="./Images/m_str.jpg" alt="Chocolate 3">
                     <h3>Strawberry Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
             </div>
             <div class="product-list">
-                <div class="product-item" >
+                <div class="product-item">
                     <img src="./Images/m_bub.jpg" alt="Chocolate 1">
                     <h3>Bubble Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product-item">
                     <img src="./Images/m_trich.jpg" alt="Chocolate 2">
-                    <h3>Tripple Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <h3>Triple Chocolate</h3>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
                 <div class="product-item">
                     <img src="./Images/m_car.jpg" alt="Chocolate 3">
                     <h3>Caramel Chocolate</h3>
-                    <p>Price: $1.99 </p>
+                    <p>Price: $1.99</p>
                     <button>Add to Cart</button>
                 </div>
             </div>
-            <h4>Lindt</h4>
+            <h4 id="lindt">Lindt</h4>
             <div class="product-list">
                 <div class="product-item">
                     <img src="./Images/l_cla.jpg" alt="Chocolate 1">
@@ -84,14 +85,13 @@
                     <button>Add to Cart</button>
                 </div>
                 <div class="product-item">
-                    <img src="./Images/l_dar.webp" alt="Chocolate 3" >
+                    <img src="./Images/l_swcl.jpg" alt="Chocolate 3">
                     <h3>Lindt Swiss Classic Dark Chocolate</h3>
                     <p>Price: $3.99</p>
                     <button>Add to Cart</button>
                 </div>
             </div>
         </section>
-        
     </main>
     <footer>
         <p>&copy; 2024 Chocolate World. All rights reserved.</p>
