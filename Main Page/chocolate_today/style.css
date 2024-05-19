@@ -42,6 +42,7 @@ nav ul li:hover {
 }
 /* introductions */
 #header1 {
+  margin-top: 100px;
   text-align: center;
   color: #553311;
   font-size: 40px;
