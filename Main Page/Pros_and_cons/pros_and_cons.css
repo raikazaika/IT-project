@@ -15,24 +15,36 @@ header {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #e6c9a8;
+    padding: 20px;
+    background-color: antiquewhite;
     text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 15px 30px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+  
+  }
+  
+  nav ul li {
+    display: inline;
+    padding: 20px;
+    margin:0px;
+    text-align: center;
+    color: #553311;
     font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #8b4513;
+  }
+  a {
+    text-decoration: none;
+  }
+  nav ul li a {
+    color: #333;
+  }
+  
+  nav ul li:hover {
+    background-color: burlywood;
+    color: #553311;
+    cursor: pointer;
+  }
+ 
+  #home_icon {
+    display: inline;
+    height: 20px;
 }
 
 main {
@@ -95,3 +107,5 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
