@@ -6,6 +6,11 @@ body {
   background-color: antiquewhite;
 }
  /* navigation bar design  */
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -42,6 +47,7 @@ nav ul li:hover {
 }
 
 #header1 {
+  margin-top: 100px;
   text-align: center;
   color: #553311;
   font-size: 40px;
@@ -178,7 +184,7 @@ nav ul li:hover {
   border-style: solid;
   border-radius: 10px;
   padding: 4%;
-  background-color: #6e4b28;
+  background-color: #6e4b28 ;
 }
 #cocoa_spread_recipes h2{
     color: antiquewhite;
