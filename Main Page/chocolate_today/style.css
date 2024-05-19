@@ -78,7 +78,7 @@ nav ul li:hover {
   color: #553311;
   font-weight: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .active, .collapsible:hover{
   background-color: burlywood;
@@ -90,6 +90,7 @@ nav ul li:hover {
   margin: 5px; 
   background-color: antiquewhite;
   display: none;
+  line-height: 24px;
 }
 
 footer {
